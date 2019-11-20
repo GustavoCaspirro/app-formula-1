@@ -16,7 +16,7 @@ const style = StyleSheet.create({
 (fonts());
 
 export default class Home extends Component {
-    static navigationOption = {
+    static navigationOptions = {
         headerTitle: <Logo/>
     }
     constructor(props) {
